@@ -50,11 +50,12 @@ a {
     padding: 20px;
     border-radius: 5px;
     background-color: #fff;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
     position: relative;
     overflow: hidden;
-    transition: 5s;
+    transition: 2s;
+    z-index: 1;
 }
 
 .all-cards .card:hover::after {
@@ -63,6 +64,8 @@ a {
 
 .all-cards .card:hover p {
     color: #fff;
+    z-index: 3;
+    position: relative;
 }
 
 .all-cards .card:hover h2 {
@@ -72,18 +75,20 @@ a {
 img {
     width: 60px;
     height: 60px;
-    border-radius: 2px solid skyblue;
+    border: 2px solid skyblue;
+    border-radius: 50%;
+    margin: 30px;
 }
 
 .all-cards .card::after {
     content: "";
-    z-index: 1;
+    z-index: 0;
     background-color: lightblue;
     width: 100%;
     height: 100%;
     bottom: -100%;
     position: absolute;
-    left: 0px;
+    left: 0;
     transition: 2s;
 }
 
@@ -96,6 +101,6 @@ img {
 .all-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 60%;
+    gap: 50px;
+    width: 100%;
 }

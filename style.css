@@ -104,7 +104,53 @@ img {
     gap: 50px;
     width: 100%;
 }
-iframe{
-    width: 100%;
+
+iframe {
+    width: 90%;
     height: 500px;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #576988;
+    margin: 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.footer div {
+    flex: 1 1 30%;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+ul li+li {
+    margin-top: 10px;
+}
+
+div ul+ul li {
+    display: inline;
+    margin: 10px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.copyright {
+    border-top: 2px solid white;
+}
+
+ul+ul li a {
+    color: white;
+}
+
+ul li a {
+    color: white;
 }

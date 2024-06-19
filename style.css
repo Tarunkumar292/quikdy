@@ -109,23 +109,21 @@ iframe {
     width: 90%;
     height: 500px;
 }
-
 .footer {
     color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
     background-color: #576988;
-    margin: 30px;
+    margin:0px 40px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-
+    gap: 20px; 
 }
 
 .footer div {
     flex: 1 1 30%;
-    margin: 10px;
     display: inline-block;
 
 }

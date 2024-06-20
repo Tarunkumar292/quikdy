@@ -121,6 +121,9 @@ iframe {
     border-top-right-radius: 25px;
     gap: 20px; 
 }
+ul{
+    list-style-type: none;
+}
 
 .footer div {
     flex: 1 1 30%;
@@ -134,7 +137,9 @@ ul li+li {
 
 div ul+ul li {
     display: inline;
-    margin: 10px;
+}
+.icon li+li{
+    margin-left: 10px;
 }
 
 ul {

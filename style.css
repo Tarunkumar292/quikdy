@@ -105,6 +105,27 @@ img {
     width: 100%;
 }
 
+ .op{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.op div+div img {
+    display: inline-block;
+    border-radius: 10%;
+    height: 70px;
+    width: 150px;
+}
+img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
 iframe {
     width: 90%;
     height: 500px;
